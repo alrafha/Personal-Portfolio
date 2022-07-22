@@ -263,8 +263,8 @@ img{
     font-weight: 600;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 2s steps(9),blinks 1s ease-in-out 2s infinite;
-    width: 9ch;
+    animation: typing 2s steps(10),blinks 1s ease-in-out 2s infinite;
+    width: 10ch;
     margin: auto;
     border-right: 4px solid rgba(255, 255, 255, 1);
 }
@@ -275,7 +275,7 @@ img{
         color: rgb(42, 226, 171);
     }
     100%{
-        width: 9ch;
+        width: 10ch;
     }
 }
 
