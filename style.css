@@ -577,6 +577,16 @@ hr{
     background-size: 100% 2px;
 }
 
+
+@media (max-width: 750px){
+    .project-item{
+        flex-direction: column;
+    }
+    .project-item.first-project,
+    .project-item.second-project{
+        border-bottom: 1px solid black;
+    }
+}
 /* Footer */
 
 footer .container{
