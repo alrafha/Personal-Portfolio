@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c1a4ad039.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <!-- <img src="images/Dark Personal Brand Logo.png" alt=""> -->
+                    </a>
+                </div>
+                <div class="burger-menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-items">
+                        <a href="#landing-page">
+                            <img src="images/personal_profile.JPG" alt="Hamza ibn Zaki" class="profile-pic nav-link"/>
+                            <span class="caption nav-link">Hamza ibn Zaki</span>
+                        </a>
+                    </li>
+                    <li class="nav-items"> 
+                        <a href="#about-me" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#domain-exp" class="nav-link">Domain Experience</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="https://www.linkedin.com/in/misterhamza/" target="_blank" class="nav-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:rafhahamza@gmail.com" target="_blank" class="nav-link">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="landing-page" id="landing-page">
+            <div class="container">
+                <div class="main-message">
+                    <h2>Hamza</h2>
+                    <h3>{Computer Science Engineer}</h3>
+                    <div class="intro-btn">
+                        <div class="cta">
+                            <a href="docs\Hamza_Software_Engineer_Resume.pdf" target="_blank" class="btn resume-btn">Download Resume</a>
+                        </div>
+                        <div class="cta">
+                            <a href="#projects" class="btn">My Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about-me">
+            <div class="container">
+                 <div class="about-img">
+                    <img src="images/personal_profile.JPG" alt="Hamza ibn Zaki" class="about-pic">
+                 </div>
+                 <div class="about__text-box">
+                    <h2>السَّلَامُ عَلَيْكُمْ</h2>
+                    <p>I am a Senior Analyst at EY India, specializing in Information Technology and Cyber Security. Developed and tested various financial sector related applications.</p>
+                    <p>Technophile and interested to work on emerging technologies. Loves to create side projects. Currently working on builing web application for a coaching institute.
+                        Loves to read sci-fi and thriller novels.
+                    </p>
+                 </div>
+            </div>
+            <hr>
+        </section>
+        <section class="services" id="domain-exp">
+            <div class="container">
+                <div class="title-heading">
+                    <h2>Domain Experience</h2>
+                    <P>
+                        Domains that I have worked upon extensively and loves to build more technological solutions on.
+                    </P>
+                </div>
+                <div class="service-tiers">
+                    <div class="tier-item">
+                        <!-- <i class="fa fa-code" aria-hidden="true"></i> -->
+                        <h2>Web Development</h2>
+                        <p>
+                            Hands-on experience in developing and deploying full-stack applications using MERN stack. Developed webpages for local business to expand their marketing world.
+                        </p>
+                    </div>
+                    <div class="tier-item">
+                        <!-- <i class="fa-light fa-microchip-ai" aria-hidden="true"></i> -->
+                        <h2>Artificial Inteligence</h2>
+                        <p>
+                            Practical knowledge of AI/ML and worked as Data Analyst Intern at Inventeron Technologies. Developed a Deep Learning model for predicting remaining useful lifetime of a turbofan engine.
+                        </p>
+                    </div>
+                    <div class="tier-item">
+                        <!-- <i class="fa-solid fa-fingerprint" aria-hidden="true"></i> -->
+                        <h2>Cyber Security</h2>
+                        <p>
+                            Experience in reviewing network architecture and testing of data security controls. Performed security testing of various network security solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">  
+            <div class="title-heading">
+                <h2>PROJECTS</h2>
+                <p>These are some of my recent projects</p>
+            </div>
+            <div class="project-item">
+                <div class="project-img ">
+                    <img src="images/TW screenshot.png" alt="Thought Wing Coaching Website">
+                </div>
+                <div class="project-description">
+                    <h2>Project: Thought Wing Coaching Website</h2>
+                    <p>
+                        Created a static website for a coaching institute to provide a online identity. 
+                    </p>
+                    <p class="project-tech">Tech Exposure: HTML/CSS, Bootstrap, JavaScript</p>
+                    <a href="https://github.com/alrafha/Thought-Wing-Coaching-Website" class="project-link github" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>Veiw Code
+                    </a>
+                    <a href="https://www.thoughtwing.in" class="project-link live" target="_blank">
+                        <i class="fa-solid fa-laptop"></i>View Live
+                        </a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                
+                <div class="project-description">
+                    <h2>Project: Speech Emotion Dectector</h2>
+                    <p>
+                        A detection model to predict emotion labels using Domain Adversial Neural Networks (DANN). The first challenge is to make good representations of capturing emotion signals using limited training samples. The second challenge is how to learn robust emotion representations
+                        across different speakers. 
+                    </p>
+                    <p class="project-tech">Tech Exposure: Python, NLP, DANN</p>
+                    <a href="#" class="project-link github" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>Veiw Code
+                    </a>
+                    <a href="#" class="project-link live" target="_blank">
+                        <i class="fa-solid fa-laptop"></i>View Live
+                        </a>
+                </div>
+                <div class="project-img ">
+                    <img src="images/ser.jpg" alt="Thought Wing Coaching Website">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-img ">
+                    <img src="images/Why-encryption.png" alt="Thought Wing Coaching Website">
+                </div>
+                <div class="project-description">
+                    <h2>Project: Image Encryption </h2>
+                    <p>
+                        Developed a web application that encrypts the images using RSA algorithm and decrypts the data using 128 bits key.
+                    </p>
+                    <p class="project-tech">Tech Exposure: HTML/CSS, JavaScript, Node.js</p>
+                    <a href="#" class="project-link github" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>Veiw Code
+                    </a>
+                    <a href="#" class="project-link live" target="_blank">
+                        <i class="fa-solid fa-laptop"></i>View Live
+                        </a>
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="container">
+            <h2>Feel free to connect with me on</h2>
+            <div class="footer-social">
+                <a href="#" target="_blank">Discord</a>
+                <a href="https://github.com/alrafha" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/misterhamza" target="_blank">Linkedin</a>
+            </div>
+            <p>&#169 Hamza 2022</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
