@@ -513,7 +513,7 @@ hr{
 
 .project-img img{
     padding: .5rem .5rem;
-    width: auto;
+    width: 20rem;
     max-height: 12rem;
     margin: 1.5rem 1.5rem;
     border: 2px solid rgb(4, 155, 155);
